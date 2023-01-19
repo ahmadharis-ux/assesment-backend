@@ -29,3 +29,5 @@ Route::middleware('auth:api')
         Route::post('debit-card-transactions', [DebitCardTransactionController::class, 'store']);
         Route::get('debit-card-transactions/{debitCardTransaction}', [DebitCardTransactionController::class, 'show']);
     });
+
+    
